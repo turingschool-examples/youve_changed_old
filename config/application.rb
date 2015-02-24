@@ -14,8 +14,8 @@ module YouveChanged
       address:              'smtp.mandrillapp.com',
       port:                 '587',
       domain:               'blogger.com',
-      user_name:            'joshua.mejia@gmail.com',
-      password:             'kYSAGWvOxPPbbZvk0_yYig',
+      user_name:            YOUR_USER_NAME_HERE,
+      password:             YOUR_API_KEY_HERE,
       authentication:       'plain',
       enable_starttls_auto: true
     }
