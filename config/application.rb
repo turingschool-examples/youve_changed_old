@@ -13,8 +13,8 @@ module YouveChanged
       address:              'smtp.mandrillapp.com',
       port:                 '587',
       domain:               'blogger.com',
-      user_name:            "horace.d.williams@gmail.com",
-      password:             "qtCjX4zEBIioiB8ObuO_0A",
+      user_name:            YOU_USER_NAME,
+      password:             YOUR_EMAIL_ADDRESS,
       authentication:       'plain',
       enable_starttls_auto: true
     }
