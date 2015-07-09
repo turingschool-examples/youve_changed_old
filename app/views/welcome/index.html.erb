@@ -1,1 +1,9 @@
 <h2>Welcome. Tell someone they've changed.</h2>
+
+<% if current_user %>
+  <%= form_tag('/notifications', id: "email-form") do %>
+    <label for="email">Enter Recipient's Email</label>
+    <input name="email">
+    <%= submit_tag "Submit" %>
+  <% end %>
+<% end %>
