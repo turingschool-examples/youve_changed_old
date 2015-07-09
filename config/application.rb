@@ -14,8 +14,8 @@ module YouveChanged
       address:              'smtp.mandrillapp.com',
       port:                 '587',
       domain:               'blogger.com',
-      user_name:            YOUR_USER_NAME_HERE,
-      password:             YOUR_API_KEY_HERE,
+      user_name:            "horace.d.williams@gmail.com",
+      password:             "qtCjX4zEBIioiB8ObuO_0A",
       authentication:       'plain',
       enable_starttls_auto: true
     }
