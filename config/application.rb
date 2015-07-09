@@ -9,7 +9,6 @@ Bundler.require(*Rails.groups)
 module YouveChanged
   class Application < Rails::Application
     config.action_mailer.delivery_method = :smtp
-
     config.action_mailer.smtp_settings = {
       address:              'smtp.mandrillapp.com',
       port:                 '587',
